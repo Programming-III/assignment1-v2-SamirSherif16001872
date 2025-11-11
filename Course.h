@@ -15,7 +15,7 @@ public:
     Course();
     Course(string cc,string cn,int ms);
     ~Course();
-    addStudent(const Student& s);
+    void addStudent(const Student& s);
     void displayCourseInfo();
     string getCourseCode();
     string getCourseName();
