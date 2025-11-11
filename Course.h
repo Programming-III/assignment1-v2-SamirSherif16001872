@@ -22,10 +22,10 @@ public:
     int getMaxStudents();
     Student* getStudents();
     int getCurrentStudents();
+    void setStudents(Student* s);
     void setCourseCode(string cc);
     void setCourseName(string cn);
     void setMaxStudents(int ms);
-    void setStudents(Student* s);
     void setCurrentStudents(int cs);
 };
 #endif
