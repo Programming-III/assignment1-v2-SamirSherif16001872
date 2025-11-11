@@ -143,7 +143,12 @@ void Course:: setCurrentStudents(int cs) {
     currentStudents=cs;
 }
 int main() {
-   
-    
+   Student s1("Omar Nabli",2202,2,"Informatics");
+    Instructor* i=new Instructor("Dr Lina Khaled",1,"Computer Science",5);
+    Course* c=new Course("1","CS101",3);
+    c->addStudent(s1);
+    c->displayCourseInfo();
+    i->display();
+    s1.display();
     return 0;
 }
